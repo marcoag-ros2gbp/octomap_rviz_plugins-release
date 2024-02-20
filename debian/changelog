@@ -1,0 +1,99 @@
+ros-rolling-octomap-rviz-plugins (2.0.0-4noble) noble; urgency=high
+
+  * ROS2 Migration (#41 <https://github.com/OctoMap/octomap_rviz_plugins/issues/41>)
+  * Contributors: Daisuke Nishimatsu, Wolfgang Merkt
+
+ -- Armin Hornung <armin@hornung.io>  Tue, 21 Dec 2021 00:00:00 -0000
+
+ros-rolling-octomap-rviz-plugins (0.2.4-4noble) noble; urgency=high
+
+  * Use automoc feature of CMake (#34 <https://github.com/OctoMap/octomap_rviz_plugins/issues/34>)
+  * Contributors: Simon Schmeisser (isys vision), Wolfgang Merkt
+
+ -- Armin Hornung <armin@hornung.io>  Tue, 21 Dec 2021 00:00:00 -0000
+
+ros-rolling-octomap-rviz-plugins (0.2.3-4noble) noble; urgency=high
+
+  * Build plugin-lib as module (#36 <https://github.com/OctoMap/octomap_rviz_plugins/issues/36>)
+  * Add GitHub Actions CI, address warnings for ROS Noetic (#39 <https://github.com/OctoMap/octomap_rviz_plugins/issues/39>)
+  * Contributors: Sebastian Kasperski, Wolfgang Merkt
+
+ -- Armin Hornung <armin@hornung.io>  Sun, 17 Jan 2021 00:00:00 -0000
+
+ros-rolling-octomap-rviz-plugins (0.2.2-4noble) noble; urgency=high
+
+  * Add missing Qt5 dependencies #35 <https://github.com/OctoMap/octomap_rviz_plugins/issues/35>
+  * Contributors: Wolfgang Merkt
+
+ -- Armin Hornung <armin@hornung.io>  Tue, 16 Jul 2019 00:00:00 -0000
+
+ros-rolling-octomap-rviz-plugins (0.2.1-4noble) noble; urgency=high
+
+  * Add Wolfgang Merkt to maintainers
+  * Update visualization on property changes with latched topics <https://github.com/OctoMap/octomap_rviz_plugins/issues/32>
+  * Update node frame from TF on every frame <https://github.com/OctoMap/octomap_rviz_plugins/issues/31>
+  * Fixed rendering of free-space voxels and pruning enclosed nodes <https://github.com/OctoMap/octomap_rviz_plugins/issues/30>
+  * Contributors: Armin Hornung, Matthias Nieuwenhuisen, Vladimir Ivan, Wolfgang Merkt
+
+ -- Armin Hornung <armin@hornung.io>  Thu, 11 Jul 2019 00:00:00 -0000
+
+ros-rolling-octomap-rviz-plugins (0.2.0-4noble) noble; urgency=high
+
+  * Fix: RViz uses Qt5 in kinetic
+  * Contributors: Armin Hornung
+
+ -- Armin Hornung <armin@hornung.io>  Sun, 10 Jul 2016 00:00:00 -0000
+
+ros-rolling-octomap-rviz-plugins (0.1.0-4noble) noble; urgency=high
+
+  * Remove -ldefault_plugin from linker options, fixes #19 <https://github.com/OctoMap/octomap_rviz_plugins/issues/19>
+  * Support for displaying ColorOcTree and OcTreeStamped, templated rviz plugins
+  * Trim Z values in the octomap visualization
+  * Add alpha property to OccupancyGridDisplay
+  * add fix for qt moc BOOST_JOIN problem for osx yosemite build
+  * Contributors: Armin Hornung, Felix Endres, Gautham Manoharan, Javier V. Gómez, Oleksandr Lavrushchenko, Ryohei Ueda
+
+ -- Armin Hornung <armin@hornung.io>  Thu, 07 Jul 2016 00:00:00 -0000
+
+ros-rolling-octomap-rviz-plugins (0.0.5-4noble) noble; urgency=high
+
+  * fix a crash when the destructor is called before onInitialize
+  * Fix descriptions, limit octree depth range
+  * Porting fixes from groovy branch (QT4_WRAP macro, OCTOMAP_INCLUDE_DIRS)
+
+ -- Armin Hornung <armin@hornung.io>  Fri, 06 Sep 2013 00:00:00 -0000
+
+ros-rolling-octomap-rviz-plugins (0.0.4-4noble) noble; urgency=high
+
+  * Safer checking for octree conversion from stream
+  * Create octomap using AbstracOcTree (Fix issue #1)
+
+ -- Armin Hornung <armin@hornung.io>  Fri, 05 Jul 2013 00:00:00 -0000
+
+ros-rolling-octomap-rviz-plugins (0.0.3-4noble) noble; urgency=high
+
+  * correct CMakeLists. octomap_INCLUDE_DIRS(or LIB..) to OCTOMAP_INCLUDE_DIRS
+
+ -- Armin Hornung <armin@hornung.io>  Wed, 26 Jun 2013 00:00:00 -0000
+
+ros-rolling-octomap-rviz-plugins (0.0.2-4noble) noble; urgency=high
+
+  * 0.0.1 -> 0.0.2
+  * adding OPTIONS -DBOOST_TT_HAS_OPERATOR_HPP_INCLUDED option to make QT4_WRAP macro happy
+
+ -- Armin Hornung <armin@hornung.io>  Wed, 08 May 2013 00:00:00 -0000
+
+ros-rolling-octomap-rviz-plugins (0.0.1-4noble) noble; urgency=high
+
+  * removing dependency to octomap_ros package + clean-up
+  * removing rosbuild Makefile
+  * major revision
+  * adjusting to recent rviz api changes
+  * removed pcl dependancy
+  * fixed threading issue
+  * working version with ogre point cloud structures and colored boxes
+  * added max depth filter
+
+ -- Armin Hornung <armin@hornung.io>  Sat, 04 May 2013 00:00:00 -0000
+
+
